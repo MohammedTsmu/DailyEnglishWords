@@ -1,0 +1,53 @@
+/* Common Styles */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #222;
+  color: #fff;
+}
+* {
+  font-family: "Caveat", cursive;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header Styles */
+.header {
+  background-color: #292929;
+  color: #ffffff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Word Styles */
+.word {
+  background-color: #333333;
+  background-color: #1a2e3a; /*Dark blue*/
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.word:first-child {
+  margin-right: 10px;
+}
+
+.word:last-child {
+  margin-left: 10px;
+}
+
+/* Media Query for Mobile */
+@media screen and (max-width: 600px) {
+  .word:first-child {
+    margin-right: 0px;
+  }
+
+  .word:last-child {
+    margin-left: 0px;
+  }
+}
